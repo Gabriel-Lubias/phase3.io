@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.header {
+    background-color: #1f91c9;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titre {
+    font-size: 28px;
+}
+
+.navbar {
+    background-color: #8c3bff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-gauche {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-gauche li a,
+.nav-droite a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-droite {
+    display: flex;
+    align-items: center;
+}
+
+.deroulant {
+    position: relative;
+}
+
+.menu-deroulant {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #6a2bd9;
+    list-style: none;
+    padding: 10px 0;
+    min-width: 160px;
+    display: none;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.menu-deroulant li {
+    padding: 8px 15px;
+}
+
+.menu-deroulant li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-deroulant li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.deroulant:hover .menu-deroulant {
+    display: block;
+}
+
+.section {
+    background-color: #6fb3ff;
+    margin: 20px;
+    padding: 20px;
+}
+
+.section h2 {
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-card {
+    background-color: black;
+    padding: 15px;
+    width: 180px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.photo {
+    border: 1px solid white;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.arrow {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.partners {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #111;
+}
+
+.partner {
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.footer {
+    background-color: #1f91c9;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-col p,
+.footer-col a {
+    margin-bottom: 8px;
+}
