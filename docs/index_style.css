@@ -123,8 +123,30 @@ body {
 
 .photo {
     border: 1px solid white;
-    padding: 30px;
+    padding: 70px;
     margin-bottom: 10px;
+}
+
+.image-swap .photo-1 {
+    background-image: url('images/veste_rando1.png');
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s ease;
+}
+
+.image-swap .photo-1:hover {
+    background-image: url('images/veste_rando2.png');
+}
+
+.image-swap .photo-2 {
+    background-image: url('images/jean1.png');
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s ease;
+}
+
+.image-swap .photo-2:hover {
+    background-image: url('images/jean2.png');
 }
 
 .arrow {
