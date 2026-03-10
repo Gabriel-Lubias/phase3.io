@@ -8,6 +8,9 @@
 body {
     background-color: #1a1a1a;
     color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -173,6 +176,7 @@ body {
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    margin-top: auto;
 }
 
 .footer a {
@@ -222,4 +226,56 @@ body {
 
 .contact-form button:hover {
     opacity: 0.8;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.login-form {
+    background-color: black;
+    padding: 30px;
+    width: 300px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-form label {
+    font-weight: bold;
+}
+
+.login-form input {
+    padding: 8px;
+    border: none;
+}
+
+.login-form button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #8c3bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    opacity: 0.8;
+}
+
+.create-account {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.create-account a {
+    color: #6fb3ff;
+    text-decoration: none;
+}
+
+.create-account a:hover {
+    text-decoration: underline;
 }
